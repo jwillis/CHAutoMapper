@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D43CF94158F41F5000F7983 /* ExplicitMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D43CF93158F41F5000F7983 /* ExplicitMappingTests.m */; };
+		7D43CF97158F556B000F7983 /* CustomNamingConventionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D43CF96158F556B000F7983 /* CustomNamingConventionTests.m */; };
+		7D4BDB07158EC056002AFAA0 /* NSDate+CHAutoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BDB06158EC056002AFAA0 /* NSDate+CHAutoMapper.m */; };
+		7D4BDB08158EC056002AFAA0 /* NSDate+CHAutoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BDB06158EC056002AFAA0 /* NSDate+CHAutoMapper.m */; };
+		7D55021415899C330078BDE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D55021315899C330078BDE1 /* Foundation.framework */; };
+		7D55025515899E2F0078BDE1 /* CHArrayMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D55024C15899E2F0078BDE1 /* CHArrayMapping.h */; };
+		7D55025615899E2F0078BDE1 /* CHArrayMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D55024D15899E2F0078BDE1 /* CHArrayMapping.m */; };
+		7D55025815899E2F0078BDE1 /* CHObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D55024F15899E2F0078BDE1 /* CHObjectMapping.h */; };
+		7D55025915899E2F0078BDE1 /* CHObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D55025015899E2F0078BDE1 /* CHObjectMapping.m */; };
+		7D55025A15899E2F0078BDE1 /* CHObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D55025115899E2F0078BDE1 /* CHObjectMapper.h */; };
+		7D55025B15899E2F0078BDE1 /* CHObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D55025215899E2F0078BDE1 /* CHObjectMapper.m */; };
+		7D5502771589A4380078BDE1 /* NSDate+CHAutoMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5502711589A4380078BDE1 /* NSDate+CHAutoMapper.h */; };
+		7D5502791589A4380078BDE1 /* NSObject+CHMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5502731589A4380078BDE1 /* NSObject+CHMetaData.h */; };
+		7D55027A1589A4380078BDE1 /* NSObject+CHMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5502741589A4380078BDE1 /* NSObject+CHMetaData.m */; };
+		7D55027B1589A4380078BDE1 /* NSString+CHAutoMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5502751589A4380078BDE1 /* NSString+CHAutoMapper.h */; };
+		7D55027C1589A4380078BDE1 /* NSString+CHAutoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5502761589A4380078BDE1 /* NSString+CHAutoMapper.m */; };
+		7D5502951589A7F40078BDE1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D55022115899C330078BDE1 /* SenTestingKit.framework */; };
+		7D5502961589A7F40078BDE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D55022315899C330078BDE1 /* UIKit.framework */; };
+		7D5502971589A7F40078BDE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D55021315899C330078BDE1 /* Foundation.framework */; };
+		7D5502A91589A8C20078BDE1 /* NSObject+CHMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5502741589A4380078BDE1 /* NSObject+CHMetaData.m */; };
+		7D5502AA1589A8C20078BDE1 /* NSString+CHAutoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5502761589A4380078BDE1 /* NSString+CHAutoMapper.m */; };
+		7D5502AB1589A8C20078BDE1 /* CHArrayMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D55024D15899E2F0078BDE1 /* CHArrayMapping.m */; };
+		7D5502AC1589A8C20078BDE1 /* CHObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D55025015899E2F0078BDE1 /* CHObjectMapping.m */; };
+		7D5502AD1589A8C20078BDE1 /* CHObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D55025215899E2F0078BDE1 /* CHObjectMapper.m */; };
+		7D5502B11589A9500078BDE1 /* AutoMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5502B01589A9500078BDE1 /* AutoMappingTests.m */; };
+		7D5502B21589A9A90078BDE1 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5502891589A6640078BDE1 /* Player.m */; };
+		7D5502B31589A9A90078BDE1 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D55028B1589A6640078BDE1 /* Team.m */; };
+		7D63A19315E11F4A00262445 /* CHAutoMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D63A19215E11F4A00262445 /* CHAutoMapper.h */; };
+		7DE7F4A615DD9F0E0003A017 /* NSObject+CHAutoMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE7F4A415DD9F0E0003A017 /* NSObject+CHAutoMapper.h */; };
+		7DE7F4A715DD9F0E0003A017 /* NSObject+CHAutoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE7F4A515DD9F0E0003A017 /* NSObject+CHAutoMapper.m */; };
+		7DE7F4A815DD9F0E0003A017 /* NSObject+CHAutoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE7F4A515DD9F0E0003A017 /* NSObject+CHAutoMapper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D43CF92158F41F5000F7983 /* ExplicitMappingTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplicitMappingTests.h; sourceTree = "<group>"; };
+		7D43CF93158F41F5000F7983 /* ExplicitMappingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplicitMappingTests.m; sourceTree = "<group>"; };
+		7D43CF95158F556B000F7983 /* CustomNamingConventionTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNamingConventionTests.h; sourceTree = "<group>"; };
+		7D43CF96158F556B000F7983 /* CustomNamingConventionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNamingConventionTests.m; sourceTree = "<group>"; };
+		7D4BDB06158EC056002AFAA0 /* NSDate+CHAutoMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CHAutoMapper.m"; sourceTree = "<group>"; };
+		7D55021015899C330078BDE1 /* libCHAutoMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCHAutoMapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D55021315899C330078BDE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D55021715899C330078BDE1 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		7D55022115899C330078BDE1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7D55022315899C330078BDE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7D55024C15899E2F0078BDE1 /* CHArrayMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHArrayMapping.h; sourceTree = "<group>"; };
+		7D55024D15899E2F0078BDE1 /* CHArrayMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHArrayMapping.m; sourceTree = "<group>"; };
+		7D55024F15899E2F0078BDE1 /* CHObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHObjectMapping.h; sourceTree = "<group>"; };
+		7D55025015899E2F0078BDE1 /* CHObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHObjectMapping.m; sourceTree = "<group>"; };
+		7D55025115899E2F0078BDE1 /* CHObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHObjectMapper.h; sourceTree = "<group>"; };
+		7D55025215899E2F0078BDE1 /* CHObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHObjectMapper.m; sourceTree = "<group>"; };
+		7D5502711589A4380078BDE1 /* NSDate+CHAutoMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CHAutoMapper.h"; sourceTree = "<group>"; };
+		7D5502731589A4380078BDE1 /* NSObject+CHMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CHMetaData.h"; sourceTree = "<group>"; };
+		7D5502741589A4380078BDE1 /* NSObject+CHMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CHMetaData.m"; sourceTree = "<group>"; };
+		7D5502751589A4380078BDE1 /* NSString+CHAutoMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CHAutoMapper.h"; sourceTree = "<group>"; };
+		7D5502761589A4380078BDE1 /* NSString+CHAutoMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CHAutoMapper.m"; sourceTree = "<group>"; };
+		7D5502881589A6640078BDE1 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		7D5502891589A6640078BDE1 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		7D55028A1589A6640078BDE1 /* Team.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		7D55028B1589A6640078BDE1 /* Team.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		7D55028D1589A6640078BDE1 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		7D5502941589A7F40078BDE1 /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5502A61589A84F0078BDE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D5502AF1589A9500078BDE1 /* AutoMappingTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoMappingTests.h; sourceTree = "<group>"; };
+		7D5502B01589A9500078BDE1 /* AutoMappingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoMappingTests.m; sourceTree = "<group>"; };
+		7D63A19215E11F4A00262445 /* CHAutoMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAutoMapper.h; sourceTree = "<group>"; };
+		7DE7F4A415DD9F0E0003A017 /* NSObject+CHAutoMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CHAutoMapper.h"; sourceTree = "<group>"; };
+		7DE7F4A515DD9F0E0003A017 /* NSObject+CHAutoMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CHAutoMapper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D55020D15899C330078BDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D55021415899C330078BDE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D5502901589A7F40078BDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5502951589A7F40078BDE1 /* SenTestingKit.framework in Frameworks */,
+				7D5502961589A7F40078BDE1 /* UIKit.framework in Frameworks */,
+				7D5502971589A7F40078BDE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D55020515899C330078BDE1 = {
+			isa = PBXGroup;
+			children = (
+				7D55021515899C330078BDE1 /* CHAutoMapper */,
+				7D5502801589A6640078BDE1 /* Tests */,
+				7D55021215899C330078BDE1 /* Frameworks */,
+				7D55021115899C330078BDE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D55021115899C330078BDE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D55021015899C330078BDE1 /* libCHAutoMapper.a */,
+				7D5502941589A7F40078BDE1 /* Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D55021215899C330078BDE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D55021315899C330078BDE1 /* Foundation.framework */,
+				7D55022115899C330078BDE1 /* SenTestingKit.framework */,
+				7D55022315899C330078BDE1 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D55021515899C330078BDE1 /* CHAutoMapper */ = {
+			isa = PBXGroup;
+			children = (
+				7D5502701589A4380078BDE1 /* Categories */,
+				7D55024C15899E2F0078BDE1 /* CHArrayMapping.h */,
+				7D55024D15899E2F0078BDE1 /* CHArrayMapping.m */,
+				7D63A19215E11F4A00262445 /* CHAutoMapper.h */,
+				7D55025115899E2F0078BDE1 /* CHObjectMapper.h */,
+				7D55025215899E2F0078BDE1 /* CHObjectMapper.m */,
+				7D55024F15899E2F0078BDE1 /* CHObjectMapping.h */,
+				7D55025015899E2F0078BDE1 /* CHObjectMapping.m */,
+				7D55021615899C330078BDE1 /* Supporting Files */,
+			);
+			path = CHAutoMapper;
+			sourceTree = "<group>";
+		};
+		7D55021615899C330078BDE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D55021715899C330078BDE1 /* Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D5502701589A4380078BDE1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7D5502711589A4380078BDE1 /* NSDate+CHAutoMapper.h */,
+				7D4BDB06158EC056002AFAA0 /* NSDate+CHAutoMapper.m */,
+				7DE7F4A415DD9F0E0003A017 /* NSObject+CHAutoMapper.h */,
+				7DE7F4A515DD9F0E0003A017 /* NSObject+CHAutoMapper.m */,
+				7D5502731589A4380078BDE1 /* NSObject+CHMetaData.h */,
+				7D5502741589A4380078BDE1 /* NSObject+CHMetaData.m */,
+				7D5502751589A4380078BDE1 /* NSString+CHAutoMapper.h */,
+				7D5502761589A4380078BDE1 /* NSString+CHAutoMapper.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		7D5502801589A6640078BDE1 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7D5502AE1589A9500078BDE1 /* CHAutoMapper */,
+				7D5502871589A6640078BDE1 /* Fixtures */,
+				7D5502A51589A83C0078BDE1 /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		7D5502871589A6640078BDE1 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				7D5502881589A6640078BDE1 /* Player.h */,
+				7D5502891589A6640078BDE1 /* Player.m */,
+				7D55028A1589A6640078BDE1 /* Team.h */,
+				7D55028B1589A6640078BDE1 /* Team.m */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		7D5502A51589A83C0078BDE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D5502A61589A84F0078BDE1 /* Info.plist */,
+				7D55028D1589A6640078BDE1 /* Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D5502AE1589A9500078BDE1 /* CHAutoMapper */ = {
+			isa = PBXGroup;
+			children = (
+				7D5502AF1589A9500078BDE1 /* AutoMappingTests.h */,
+				7D5502B01589A9500078BDE1 /* AutoMappingTests.m */,
+				7D43CF95158F556B000F7983 /* CustomNamingConventionTests.h */,
+				7D43CF96158F556B000F7983 /* CustomNamingConventionTests.m */,
+				7D43CF92158F41F5000F7983 /* ExplicitMappingTests.h */,
+				7D43CF93158F41F5000F7983 /* ExplicitMappingTests.m */,
+			);
+			path = CHAutoMapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D55020E15899C330078BDE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D55025515899E2F0078BDE1 /* CHArrayMapping.h in Headers */,
+				7D55025815899E2F0078BDE1 /* CHObjectMapping.h in Headers */,
+				7D55025A15899E2F0078BDE1 /* CHObjectMapper.h in Headers */,
+				7D5502771589A4380078BDE1 /* NSDate+CHAutoMapper.h in Headers */,
+				7D5502791589A4380078BDE1 /* NSObject+CHMetaData.h in Headers */,
+				7D55027B1589A4380078BDE1 /* NSString+CHAutoMapper.h in Headers */,
+				7DE7F4A615DD9F0E0003A017 /* NSObject+CHAutoMapper.h in Headers */,
+				7D63A19315E11F4A00262445 /* CHAutoMapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D55020F15899C330078BDE1 /* CHAutoMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D55023415899C330078BDE1 /* Build configuration list for PBXNativeTarget "CHAutoMapper" */;
+			buildPhases = (
+				7D55020C15899C330078BDE1 /* Sources */,
+				7D55020D15899C330078BDE1 /* Frameworks */,
+				7D55020E15899C330078BDE1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHAutoMapper;
+			productName = CHAutoMapper;
+			productReference = 7D55021015899C330078BDE1 /* libCHAutoMapper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7D5502931589A7F40078BDE1 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D5502A21589A7F40078BDE1 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				7D55028F1589A7F40078BDE1 /* Sources */,
+				7D5502901589A7F40078BDE1 /* Frameworks */,
+				7D5502911589A7F40078BDE1 /* Resources */,
+				7D5502921589A7F40078BDE1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 7D5502941589A7F40078BDE1 /* Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D55020715899C330078BDE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 7D55020A15899C330078BDE1 /* Build configuration list for PBXProject "CHAutoMapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D55020515899C330078BDE1;
+			productRefGroup = 7D55021115899C330078BDE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D55020F15899C330078BDE1 /* CHAutoMapper */,
+				7D5502931589A7F40078BDE1 /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D5502911589A7F40078BDE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D5502921589A7F40078BDE1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D55020C15899C330078BDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D55025615899E2F0078BDE1 /* CHArrayMapping.m in Sources */,
+				7D55025915899E2F0078BDE1 /* CHObjectMapping.m in Sources */,
+				7D55025B15899E2F0078BDE1 /* CHObjectMapper.m in Sources */,
+				7D55027A1589A4380078BDE1 /* NSObject+CHMetaData.m in Sources */,
+				7D55027C1589A4380078BDE1 /* NSString+CHAutoMapper.m in Sources */,
+				7D4BDB07158EC056002AFAA0 /* NSDate+CHAutoMapper.m in Sources */,
+				7DE7F4A715DD9F0E0003A017 /* NSObject+CHAutoMapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D55028F1589A7F40078BDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5502B21589A9A90078BDE1 /* Player.m in Sources */,
+				7D5502B31589A9A90078BDE1 /* Team.m in Sources */,
+				7D5502A91589A8C20078BDE1 /* NSObject+CHMetaData.m in Sources */,
+				7D5502AA1589A8C20078BDE1 /* NSString+CHAutoMapper.m in Sources */,
+				7D5502AB1589A8C20078BDE1 /* CHArrayMapping.m in Sources */,
+				7D5502AC1589A8C20078BDE1 /* CHObjectMapping.m in Sources */,
+				7D5502AD1589A8C20078BDE1 /* CHObjectMapper.m in Sources */,
+				7D5502B11589A9500078BDE1 /* AutoMappingTests.m in Sources */,
+				7D4BDB08158EC056002AFAA0 /* NSDate+CHAutoMapper.m in Sources */,
+				7D43CF94158F41F5000F7983 /* ExplicitMappingTests.m in Sources */,
+				7D43CF97158F556B000F7983 /* CustomNamingConventionTests.m in Sources */,
+				7DE7F4A815DD9F0E0003A017 /* NSObject+CHAutoMapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D55023215899C330078BDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D55023315899C330078BDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D55023515899C330078BDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CHAutoMapper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CHAutoMapper/Prefix.pch;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7D55023615899C330078BDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CHAutoMapper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CHAutoMapper/Prefix.pch;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7D5502A31589A7F40078BDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tests/Prefix.pch;
+				INFOPLIST_FILE = Tests/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7D5502A41589A7F40078BDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tests/Prefix.pch;
+				INFOPLIST_FILE = Tests/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D55020A15899C330078BDE1 /* Build configuration list for PBXProject "CHAutoMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D55023215899C330078BDE1 /* Debug */,
+				7D55023315899C330078BDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D55023415899C330078BDE1 /* Build configuration list for PBXNativeTarget "CHAutoMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D55023515899C330078BDE1 /* Debug */,
+				7D55023615899C330078BDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D5502A21589A7F40078BDE1 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D5502A31589A7F40078BDE1 /* Debug */,
+				7D5502A41589A7F40078BDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D55020715899C330078BDE1 /* Project object */;
+}
