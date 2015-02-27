@@ -25,9 +25,9 @@
         options:kNilOptions error:NULL];
     
     Team *team = [[Team alloc] initWithDictionary:dictionary];
-    STAssertTrue([team.teamId isEqualToNumber:[NSNumber numberWithInt:1]], nil);
-    STAssertTrue([team.name isEqualToString:@"Bulls"], nil);
-    STAssertTrue([team.headCoachId isEqualToNumber:[NSNumber numberWithInt:4]], nil);
+    XCTAssertTrue([team.teamId isEqualToNumber:[NSNumber numberWithInt:1]]);
+    XCTAssertTrue([team.name isEqualToString:@"Bulls"]);
+    XCTAssertTrue([team.headCoachId isEqualToNumber:[NSNumber numberWithInt:4]]);
 }
 
 - (void)testBelongsTo
@@ -40,10 +40,10 @@
     
     Player *player = [[Player alloc] initWithDictionary:dictionary];
     Team *team = player.team;
-    STAssertTrue([player.playerId isEqualToNumber:[NSNumber numberWithInt:1]], nil);
-    STAssertTrue([player.teamId isEqualToNumber:[NSNumber numberWithInt:1]], nil);
-    STAssertNotNil(team, nil);
-    STAssertTrue([team.name isEqualToString:@"Bulls"], nil);
+    XCTAssertTrue([player.playerId isEqualToNumber:[NSNumber numberWithInt:1]]);
+    XCTAssertTrue([player.teamId isEqualToNumber:[NSNumber numberWithInt:1]]);
+    XCTAssertNotNil(team);
+    XCTAssertTrue([team.name isEqualToString:@"Bulls"]);
 }
 
 - (void)testHasMany
@@ -58,7 +58,7 @@
     
     Team *team = [[Team alloc] initWithDictionary:dictionary];
     Player *player = [team.players objectAtIndex:1];
-    STAssertTrue([player.teamId isEqualToNumber:[NSNumber numberWithInt:1]], nil);
+    XCTAssertTrue([player.teamId isEqualToNumber:[NSNumber numberWithInt:1]]);
 }
 
 @end

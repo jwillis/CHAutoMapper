@@ -18,9 +18,9 @@
     NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:[json dataUsingEncoding:NSUTF8StringEncoding]
                                                                options:kNilOptions error:NULL];
     Team *team = [[Team alloc] initWithDictionary:dictionary];
-    STAssertTrue([team.teamId isEqualToNumber:[NSNumber numberWithInt:1]], nil);
-    STAssertTrue([team.name isEqualToString:@"Bulls"], nil);
-    STAssertTrue([team.headCoachId isEqualToNumber:[NSNumber numberWithInt:4]], nil);
+    XCTAssertTrue([team.teamId isEqualToNumber:[NSNumber numberWithInt:1]]);
+    XCTAssertTrue([team.name isEqualToString:@"Bulls"]);
+    XCTAssertTrue([team.headCoachId isEqualToNumber:[NSNumber numberWithInt:4]]);
 }
 
 @end
