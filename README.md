@@ -101,27 +101,6 @@ For that response, we would use this mapping:
 
     Player *player  = [[Player alloc] initWithDictionary:dictionary];
 
-## What if the web api or the Objective-C object models don't have a naming convention?
-That's fine. If the server outputs JSON, CHAutoMapper has a Ruby script that will generate much of the code needed to instantiate a mapping instance for the entire object graph based on the server response. Here is an example. Run this in the terminal:
- 
-    $ curl -s https://api.twitter.com/1/trends/1.json | ruby mapping_from_json.rb
-
-Output:
-
-    [CHObjectMapping mappingForClass:[Target class] forPropertyName:nil
-        withPropertyMap:[NSDictionary dictionaryWithObjectsAndKeys:
-           @"", @"created_at",
-           [CHObjectMapping mappingForClass:[Target class] forPropertyName:@""
-               withPropertyMap:[NSDictionary dictionaryWithObjectsAndKeys:
-                   @"", @"name", @"", @"woeid", nil]], @"locations",
-           [CHObjectMapping mappingForClass:[Target class] forPropertyName:@""
-               withPropertyMap:[NSDictionary dictionaryWithObjectsAndKeys:
-                   @"", @"query", @"", @"name", @"", @"events", @"", @"promoted_content",
-                   @"", @"url", nil]], @"trends",
-           @"", @"as_of", nil]];
-		
-From there, we simply fill in the empty strings according to our Objective-C object model. Now, had Twitter's API not been using a naming convention, we can still generate a lot of the mapping code.
-
 ## Mapping from non-JSON sources
 CHAutoMapper is not limited to JSON sources, but can be used with any KVC source.
 
